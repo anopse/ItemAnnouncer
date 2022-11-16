@@ -8,6 +8,8 @@ I currently use it myself in a GDKP raid to announce minimum bid prices of linke
 
 # Import Format
 
+If you're reading this on CurseForge, because CurseForge Markdown does not support blocks of code properly, you should look at examples and format explanation directly on [GitHub](https://github.com/anopse/ItemAnnouncer).
+
 ## Basic example
 
 ```
@@ -19,7 +21,7 @@ Foo-Benediction;Bar-Benediction
 32238;/g Ring of Calming Waves is good for healers;/raid Ring of Calming Waves Minbid is 200
 ```
 
-The formation is splitted into two parts, the header (always 3 lines), and the items data.
+The import data is splitted into two parts, the header (always 3 lines), and the items data.
 
 ### Header
 
@@ -30,6 +32,7 @@ First header line should contain only 1 character which will be used as a separa
 #### Second header line : Channels to watch
 
 Second header line should contains channels where the messages will be scanned for item links in it. The supported channels are :
+
  - Say (`/s`, `/say`)
  - Yell (`/y`, `/yell`)
  - Party (`/p`, `/party`)
