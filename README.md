@@ -33,7 +33,7 @@ Second header line should contains channels where the messages will be scanned f
  - Say (`/s`, `/say`)
  - Yell (`/y`, `/yell`)
  - Party (`/p`, `/party`)
- - Raid (`/r`, `/raid`)
+ - Raid (`/raid`)
  - Raid Warning (`/rw`, `/raidwarning`)
  - Guild (`/g`, `/guild`)
  - Officer (`/o`, `/officer`)
