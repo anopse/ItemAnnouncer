@@ -42,7 +42,7 @@ local channels = {
 	{ cond = isIndoor, to = 'SAY', from = { 'CHAT_MSG_SAY' } , cmds={'/s','/say'}, name = 'Say' },
 	{ cond = isIndoor, to = 'YELL', from = { 'CHAT_MSG_YELL' } , cmds={'/y','/yell'}, name = 'Yell' },
 	{ cond = isInGroup, to = 'PARTY', from = { 'CHAT_MSG_PARTY', 'CHAT_MSG_PARTY_LEADER' }, cmds={'/p','/party'}, name = 'Party' },
-	{ cond = isInRaid, to = 'RAID', from = { 'CHAT_MSG_RAID', 'CHAT_MSG_RAID_LEADER' }, cmds={'/r','/raid'}, name = 'Raid' },
+	{ cond = isInRaid, to = 'RAID', from = { 'CHAT_MSG_RAID', 'CHAT_MSG_RAID_LEADER' }, cmds={'/raid'}, name = 'Raid' },
 	{ cond = isInGuild, to = 'GUILD', from = { 'CHAT_MSG_GUILD' }, cmds={'/g','/guild'}, name = 'Guild' },
 	{ cond = isGuildOfficer, to = 'OFFICER', from = { 'CHAT_MSG_OFFICER' }, cmds={'/o','/officer'}, name = 'Officer' },
 	{ cond = hasRaidAssist, to = 'RAID_WARNING', from = { 'CHAT_MSG_RAID_WARNING' }, cmds={'/rw','/raidwarning'}, name = 'Raid Warning' },
