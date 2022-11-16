@@ -2,5 +2,6 @@
 ## Interface: 30400
 ## Version: 0.3.0
 ## SavedVariables: ItemAnnouncerDB
+## X-Curse-Project-ID: 704284
 embeds.xml
 ItemAnnouncerUI.lua
