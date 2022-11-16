@@ -1,0 +1,6 @@
+## Title: ItemAnnouncer
+## Interface: 30400
+## Version: 0.3.0
+## SavedVariables: ItemAnnouncerDB
+embeds.xml
+ItemAnnouncerUI.lua
