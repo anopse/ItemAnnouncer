@@ -1,3 +1,5 @@
+## [GitHub](https://github.com/anopse/ItemAnnouncer) | [CurseForge](https://www.curseforge.com/wow/addons/itemannouncer)
+
 # ItemAnnouncer
 
 WoW Classic Addon to automatically send some messages when specific item links is sent in chat.
